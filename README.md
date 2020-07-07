@@ -11,7 +11,7 @@ A Tic-Tac-Toe game which is unconquerable thanks to artifcial intelligence.
 ### Prerequisites
  Install latest version of 'node.js' and 'npm' in order to start development.
 ```
-Vue 3 (Vue-Cli)
+Vue  (Vue-Cli)
 Buefy 
 ```
 
