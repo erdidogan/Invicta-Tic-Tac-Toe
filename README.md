@@ -2,11 +2,14 @@
 
 A Tic-Tac-Toe game which is unconquerable thanks to artifcial intelligence.
 
+![Image](./src/assets/1.png "Menu")
+
 ## Feauteres
 
 * Elegant, Simple UI
 * Instant Game Play
 
+![Image](./src/assets/2.png "Game Play")
 
 ### Prerequisites
  Install latest version of 'node.js' and 'npm' in order to start development.
