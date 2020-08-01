@@ -38,7 +38,7 @@ npm run serve
 
 ## Built With
 
-* [Vue 3](https://vuejs.org/) - The progressive javascript framework
+* [Vue JS](https://vuejs.org/) - The progressive javascript framework
 
 
 ## Authors
