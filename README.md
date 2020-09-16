@@ -18,29 +18,15 @@ Vue  (Vue-Cli)
 Buefy 
 ```
 
-### Installing
+### Install & Start
 
 Install dependencies
 - Go to project directory and use the command below.
 
 ```
 npm install
-```
-
-### Start Program
-
-Go to project directory and use the command below
-
-```
 npm run serve 
 ```
-
-
-## Built With
-
-* [Vue JS](https://vuejs.org/) - The progressive javascript framework
-
-
 ## Authors
 
  [Erdi Doğan](https://www.linkedin.com/in/doganerdi) 
