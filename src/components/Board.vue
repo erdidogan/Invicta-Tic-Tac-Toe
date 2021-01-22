@@ -10,9 +10,9 @@
             </nav>
         </section>
         <section>
-            <button class="button is-rounded is-expanded" v-on:click="start" v-show="!isStarted"> Start Game !</button>
-            <transition name="fade"  v-show="isStarted">
-                <div class="game-board" v-show="isStarted">
+
+            <transition name="fade"  >
+                <div class="game-board" >
                     <table cellspacing="0">
                         <tr v-bind:key="n" v-for="(n, i) in 3">
                             <td @click="performMove(j, i)" v-bind:key="n" v-for="(n, j) in 3">
@@ -49,7 +49,6 @@
         data() {
             return {
                 gameOver: false,
-                isStarted: false,
                 gameOverText: '',
                 board: new Logic(),
                 ai: new Ai()
@@ -61,9 +60,6 @@
                 this.gameOver = false
                 this.gameOverText = ''
                 this.board = new Logic();
-            },
-            start: function reset() {
-                this.isStarted=true
             },
             performMove(x, y) {
 

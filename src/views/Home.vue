@@ -8,13 +8,8 @@
           <div class="field is-grouped is-grouped-centered">
             <p class="control">
               <router-link :to="{name: 'SinglePlayer'}">
-                <button class="button is-success"   >Single Player</button>
+                <button class="button is-success"   >Click hero to play!</button>
               </router-link>
-            </p>
-            <p class="control">
-              <b-tooltip label="Coming Soon..." type="is-dark" position="is-bottom" always>
-                <button class="button is-info" disabled>Multi Player</button>
-              </b-tooltip>
             </p>
           </div>
       </div>

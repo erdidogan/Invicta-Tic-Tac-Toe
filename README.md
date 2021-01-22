@@ -2,7 +2,7 @@
 
 A Tic-Tac-Toe game which is unconquerable thanks to artifcial intelligence.
 
-![Image](./src/assets/1.png "Menu")
+
 
 ## Feauteres
 
